@@ -9,23 +9,41 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>@yield('title')</title>
 
+    <link rel="apple-touch-icon" sizes="57x57" href={{ asset("favicon/apple-icon-57x57.png") }}>
+    <link rel="apple-touch-icon" sizes="60x60" href={{ asset("favicon/apple-icon-60x60.png") }}>
+    <link rel="apple-touch-icon" sizes="72x72" href={{ asset("favicon/apple-icon-72x72.png") }}>
+    <link rel="apple-touch-icon" sizes="76x76" href={{ asset("favicon/apple-icon-76x76.png") }}>
+    <link rel="apple-touch-icon" sizes="114x114" href={{ asset("favicon/apple-icon-114x114.png") }}>
+    <link rel="apple-touch-icon" sizes="120x120" href={{ asset("favicon/apple-icon-120x120.png") }}>
+    <link rel="apple-touch-icon" sizes="144x144" href={{ asset("favicon/apple-icon-144x144.png") }}>
+    <link rel="apple-touch-icon" sizes="152x152" href={{ asset("favicon/apple-icon-152x152.png") }}>
+    <link rel="apple-touch-icon" sizes="180x180" href={{ asset("favicon/apple-icon-180x180.png") }}>
+    <link rel="icon" type="image/png" sizes="192x192" href={{ asset("favicon/android-icon-192x192.png") }}>
+    <link rel="icon" type="image/png" sizes="32x32" href={{ asset("favicon/favicon-32x32.png") }}>
+    <link rel="icon" type="image/png" sizes="96x96" href={{ asset("favicon/favicon-96x96.png") }}>
+    <link rel="icon" type="image/png" sizes="16x16" href={{ asset("favicon/favicon-16x16.png") }}>
+    <link rel="manifest" href={{ asset("favicon/manifest.json") }}>
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap"
-    rel="stylesheet">
+        rel="stylesheet">
 
     <!-- Css Styles -->
-    <link rel="stylesheet" href="{{ asset("css/bootstrap.min.css") }}" type="text/css">
-    <link rel="stylesheet" href="{{ asset("css/font-awesome.min.css") }}" type="text/css">
-    <link rel="stylesheet" href="{{ asset("css/elegant-icons.css") }}" type="text/css">
-    <link rel="stylesheet" href="{{ asset("css/magnific-popup.css") }}" type="text/css">
-    <link rel="stylesheet" href="{{ asset("css/nice-select.css") }}" type="text/css">
-    <link rel="stylesheet" href="{{ asset("css/owl.carousel.min.css") }}" type="text/css">
-    <link rel="stylesheet" href="{{ asset("css/slicknav.min.css") }}" type="text/css">
-    <link rel="stylesheet" href="{{ asset("css/style.css") }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('css/elegant-icons.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('css/magnific-popup.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('css/nice-select.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('css/slicknav.min.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}" type="text/css">
 </head>
 
 <body>
-<!-- Page Preloder -->
+    <!-- Page Preloder -->
     <div id="preloder">
         <div class="loader"></div>
     </div>
@@ -48,9 +66,9 @@
             </div>
         </div>
         <div class="offcanvas__nav__option">
-            <a href="#" class="search-switch"><img src={{ asset("img/icon/search.png") }} alt=""></a>
-            <a href="#"><img src={{ "img/icon/heart.png" }} alt=""></a>
-            <a href="#"><img src={{ "img/icon/cart.png" }} alt=""> <span>0</span></a>
+            <a href="#" class="search-switch"><img src={{ asset('img/icon/search.png') }} alt=""></a>
+            <a href="#"><img src={{ 'img/icon/heart.png' }} alt=""></a>
+            <a href="#"><img src={{ 'img/icon/cart.png' }} alt=""> <span>0</span></a>
             <div class="price">$0.00</div>
         </div>
         <div id="mobile-menu-wrap"></div>
@@ -93,7 +111,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-3">
                     <div class="header__logo">
-                        <a href="./index.html"><img src={{ "img/logo.png" }} alt=""></a>
+                        <a href="./index.html"><img src={{ 'img/logo.png' }} alt=""></a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
@@ -118,9 +136,10 @@
                 </div>
                 <div class="col-lg-3 col-md-3">
                     <div class="header__nav__option">
-                        <a href="#" class="search-switch"><img src={{ "img/icon/search.png" }} alt=""></a>
-                        <a href="#"><img src={{ "img/icon/heart.png" }} alt=""></a>
-                        <a href="#"><img src={{ "img/icon/cart.png" }} alt=""> <span>0</span></a>
+                        <a href="#" class="search-switch"><img src={{ 'img/icon/search.png' }}
+                                alt=""></a>
+                        <a href="#"><img src={{ 'img/icon/heart.png' }} alt=""></a>
+                        <a href="#"><img src={{ 'img/icon/cart.png' }} alt=""> <span>0</span></a>
                         <div class="price">$0.00</div>
                     </div>
                 </div>
@@ -130,4 +149,5 @@
     </header>
     <!-- Header Section End -->
 </body>
+
 </html>

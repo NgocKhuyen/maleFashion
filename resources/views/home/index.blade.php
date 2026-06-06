@@ -11,11 +11,10 @@
                     <div class="row">
                         <div class="col-xl-5 col-lg-7 col-md-8">
                             <div class="hero__text">
-                                <h6>Summer Collection</h6>
-                                <h2>Fall - Winter Collections 2030</h2>
-                                <p>A specialist label creating luxury essentials. Ethically crafted with an unwavering
-                                commitment to exceptional quality.</p>
-                                <a href="#" class="primary-btn">Shop now <span class="arrow_right"></span></a>
+                                <h6>Bộ Sưu Tập Mùa Hè</h6>
+                                <h2>Bộ Sưu Tập Thu Đông 2026</h2>
+                                <p>Khám phá những thiết kế thời trang cao cấp với chất lượng hoàn thiện tinh tế và phong cách hiện đại.</p>
+                                <a href="#" class="primary-btn">Mua sắm ngay<span class="arrow_right"></span></a>
                                 <div class="hero__social">
                                     <a href="#"><i class="fa fa-facebook"></i></a>
                                     <a href="#"><i class="fa fa-twitter"></i></a>
@@ -32,11 +31,10 @@
                     <div class="row">
                         <div class="col-xl-5 col-lg-7 col-md-8">
                             <div class="hero__text">
-                                <h6>Summer Collection</h6>
-                                <h2>Fall - Winter Collections 2030</h2>
-                                <p>A specialist label creating luxury essentials. Ethically crafted with an unwavering
-                                commitment to exceptional quality.</p>
-                                <a href="#" class="primary-btn">Shop now <span class="arrow_right"></span></a>
+                                <h6>Bộ Sưu Tập Mùa Hè</h6>
+                                <h2>Bộ Sưu Tập Thu Đông 2026</h2>
+                                <p>Khám phá những thiết kế thời trang cao cấp với chất lượng hoàn thiện tinh tế và phong cách hiện đại.</p>
+                                <a href="#" class="primary-btn">Mua sắm ngay<span class="arrow_right"></span></a>
                                 <div class="hero__social">
                                     <a href="#"><i class="fa fa-facebook"></i></a>
                                     <a href="#"><i class="fa fa-twitter"></i></a>
@@ -62,8 +60,8 @@
                             <img src="img/banner/banner-1.jpg" alt="">
                         </div>
                         <div class="banner__item__text">
-                            <h2>Clothing Collections 2030</h2>
-                            <a href="#">Shop now</a>
+                            <h2>Bộ Sưu Tập Thời Trang 2026</h2>
+                            <a href="#">Mua sắm ngay</a>
                         </div>
                     </div>
                 </div>
@@ -73,8 +71,8 @@
                             <img src="img/banner/banner-2.jpg" alt="">
                         </div>
                         <div class="banner__item__text">
-                            <h2>Accessories</h2>
-                            <a href="#">Shop now</a>
+                            <h2>Kính phong cách 2026</h2>
+                            <a href="#">Mua sắm ngay</a>
                         </div>
                     </div>
                 </div>
@@ -84,8 +82,8 @@
                             <img src="img/banner/banner-3.jpg" alt="">
                         </div>
                         <div class="banner__item__text">
-                            <h2>Shoes Spring 2030</h2>
-                            <a href="#">Shop now</a>
+                            <h2>Bộ Sưu Tập Giày 2026</h2>
+                            <a href="#">Mua sắm ngay</a>
                         </div>
                     </div>
                 </div>
@@ -100,9 +98,9 @@
             <div class="row">
                 <div class="col-lg-12">
                     <ul class="filter__controls">
-                        <li class="active" data-filter="*">Best Sellers</li>
-                        <li data-filter=".new-arrivals">New Arrivals</li>
-                        <li data-filter=".hot-sales">Hot Sales</li>
+                        <li class="active" data-filter="*">Bán Chạy Nhất</li>
+                        <li data-filter=".new-arrivals">Sản Phẩm Mới</li>
+                        <li data-filter=".hot-sales">Ưu Đãi</li>
                     </ul>
                 </div>
             </div>
@@ -393,7 +391,7 @@
             <div class="row">
                 <div class="col-lg-3">
                     <div class="categories__text">
-                        <h2>Clothings Hot <br /> <span>Shoe Collection</span> <br /> Accessories</h2>
+                        <h2>Quần Áo Nổi Bật<br /> <span>Bộ Sưu Tập Giày</span> <br /> Phụ Kiện</h2>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -407,7 +405,7 @@
                 </div>
                 <div class="col-lg-4 offset-lg-1">
                     <div class="categories__deal__countdown">
-                        <span>Deal Of The Week</span>
+                        <span>Ưu đãi cuối tuần</span>
                         <h2>Multi-pocket Chest Bag Black</h2>
                         <div class="categories__deal__countdown__timer" id="countdown">
                             <div class="cd-item">
@@ -427,7 +425,7 @@
                                 <p>Seconds</p>
                             </div>
                         </div>
-                        <a href="#" class="primary-btn">Shop now</a>
+                        <a href="#" class="primary-btn">Mua sắm ngay</a>
                     </div>
                 </div>
             </div>
@@ -451,9 +449,8 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="instagram__text">
-                        <h2>Instagram</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua.</p>
+                        <h2>LOOKBOOK 2026</h2>
+                        <p>Khám phá những bộ sưu tập được tuyển chọn dành riêng cho phong cách hiện đại.</p>
                         <h3>#Male_Fashion</h3>
                     </div>
                 </div>
@@ -468,8 +465,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title">
-                        <span>Latest News</span>
-                        <h2>Fashion New Trends</h2>
+                        <span>Blog</span>
+                        <h2>Xu hướng thời trang</h2>
                     </div>
                 </div>
             </div>
