@@ -12,7 +12,7 @@
                     <div class="col-lg-12">
                         <div class="product__details__breadcrumb">
                             <a href={{ route('home') }}>Trang chủ</a>
-                            <a href="./shop.html">Shop</a>
+                            <a href={{ route('shop') }}>Shop</a>
                             <span>Chi tiết sản phẩm</span>
                         </div>
                     </div>
