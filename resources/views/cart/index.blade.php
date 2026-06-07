@@ -147,10 +147,9 @@
                         <h6>Tổng Sản Phẩm</h6>
                         <ul>
                             <li>Tạm tính <span>$ 169.50</span></li>
-                            <li>Ship <span>$ 30</span></li>
                             <li>Tổng cộng <span>$ 169.50</span></li>
                         </ul>
-                        <a href="#" class="primary-btn">Đặt hàng</a>
+                        <a href="#" class="primary-btn">Thanh toán</a>
                     </div>
                 </div>
             </div>

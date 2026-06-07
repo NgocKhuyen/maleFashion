@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\CartController;
+use App\Http\Controllers\CheckoutController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\PageController;
@@ -26,4 +27,9 @@ Route::prefix('products')->group(function () {
 // Cart
 Route::prefix('cart')->group(function() {
     Route::get('/', [CartController::class, 'index'])->name('cart');
+});
+
+// Checkout
+Route::prefix('checkout')->group(function() {
+    Route::get('/', [CheckoutController::class, 'index'])->name('checkout');
 });
