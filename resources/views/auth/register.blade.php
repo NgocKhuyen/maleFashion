@@ -4,11 +4,11 @@
 @endsection
 
 @section('content')
-    <section class="login">
-        <div class="container">
+    <section class="login register">
+        <div class="container-login">
             <div class="login__inner">
                 <div class="login-left">
-                    <h2 class="login-title">ĐĂNG KÍ</h2>
+                    <h2 class="login-title">Đăng Kí</h2>
                     <p class="login-desc">
                         Hãy đăng ký ngay để tích lũy điểm thành viên và nhận được những ưu đãi tốt hơn!
                     </p>
@@ -41,7 +41,7 @@
                     </form>
                 </div>
                 <div class="login-right">
-                    <img src="./asset/img/login.webp" alt="" class="login-img">
+                    <img src={{ asset('img/login.webp') }} alt="" class="login-img" />
                 </div>
             </div>
         </div>
