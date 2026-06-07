@@ -117,12 +117,26 @@
                 <div class="col-lg-6 col-md-6">
                     <nav class="header__menu mobile-menu">
                         <ul>
-                            <li class="active"><a href={{ route('home') }}>Trang chủ</a></li>
-                            <li><a href={{ route('shop') }}>Shop</a></li>
-                            <li><a href={{ route('blog') }}>Blog</a></li>
-                            <li><a href={{ route('about') }}>Giới thiệu</a></li>
-                            <li><a href={{ route('contact') }}>Liên hệ</a></li>
-                            {{-- <li><a href="#">Pages</a>
+                            <li class="{{ request()->routeIs('home') ? 'active' : '' }}">
+                                <a href="{{ route('home') }}">Trang chủ</a>
+                            </li>
+
+                            <li class="{{ request()->routeIs('shop*') ? 'active' : '' }}">
+                                <a href="{{ route('shop') }}">Shop</a>
+                            </li>
+
+                            <li class="{{ request()->routeIs('blog*') ? 'active' : '' }}">
+                                <a href="{{ route('blog') }}">Blog</a>
+                            </li>
+
+                            <li class="{{ request()->routeIs('about') ? 'active' : '' }}">
+                                <a href="{{ route('about') }}">Giới thiệu</a>
+                            </li>
+
+                            <li class="{{ request()->routeIs('contact') ? 'active' : '' }}">
+                                <a href="{{ route('contact') }}">Liên hệ</a>
+                            </li>
+                        {{-- <li><a href="#">Pages</a>
                                 <ul class="dropdown">
                                     <li><a href="./about.html">About Us</a></li>
                                     <li><a href="./shop-details.html">Shop Details</a></li>
@@ -139,7 +153,7 @@
                         <a href="#" class="search-switch"><img src={{ 'img/icon/search.png' }}
                                 alt=""></a>
                         <a href="#"><img src={{ 'img/icon/heart.png' }} alt=""></a>
-                        <a href="#"><img src={{ 'img/icon/cart.png' }} alt=""> <span>0</span></a>
+                        <a href={{ route('cart') }}><img src={{ 'img/icon/cart.png' }} alt=""> <span>0</span></a>
                         <div class="price">$0.00</div>
                     </div>
                 </div>
