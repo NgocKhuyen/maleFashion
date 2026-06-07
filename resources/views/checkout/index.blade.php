@@ -30,7 +30,7 @@
                 <form action="#">
                     <div class="row">
                         <div class="col-lg-8 col-md-6">
-                            <h6 class="coupon__code"><span class="icon_tag_alt"></span><a href="#">Click
+                            <h6 class="coupon__code"><span class="icon_tag_alt"></span><a href={{ route('cart') }}>Click
                                     vào</a> đây để nhập mã giảm giá</h6>
                             <h6 class="checkout__title">Chi tiết thanh toán</h6>
                             <div class="row">

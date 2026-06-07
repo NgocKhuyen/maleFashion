@@ -130,7 +130,7 @@
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6">
                             <div class="continue__btn update__btn">
-                                <a href="#"><i class="fa fa-spinner"></i> Cập nhật giỏ hàng</a>
+                                <a href="#" class="site-btn"><i class="fa fa-spinner"></i> Cập nhật giỏ hàng</a>
                             </div>
                         </div>
                     </div>
@@ -149,7 +149,7 @@
                             <li>Tạm tính <span>$ 169.50</span></li>
                             <li>Tổng cộng <span>$ 169.50</span></li>
                         </ul>
-                        <a href="#" class="primary-btn">Thanh toán</a>
+                        <a href={{ route('checkout') }} class="primary-btn site-btn">Thanh toán</a>
                     </div>
                 </div>
             </div>

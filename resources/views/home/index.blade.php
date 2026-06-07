@@ -14,7 +14,7 @@
                                 <h6>Bộ Sưu Tập Mùa Hè</h6>
                                 <h2>Bộ Sưu Tập Thu Đông 2026</h2>
                                 <p>Khám phá những thiết kế thời trang cao cấp với chất lượng hoàn thiện tinh tế và phong cách hiện đại.</p>
-                                <a href="#" class="primary-btn">Mua sắm ngay<span class="arrow_right"></span></a>
+                                <a href="#" class="primary-btn site-btn">Mua sắm ngay<span class="arrow_right"></span></a>
                                 <div class="hero__social">
                                     <a href="#"><i class="fa fa-facebook"></i></a>
                                     <a href="#"><i class="fa fa-twitter"></i></a>
@@ -425,7 +425,7 @@
                                 <p>Seconds</p>
                             </div>
                         </div>
-                        <a href="#" class="primary-btn">Mua sắm ngay</a>
+                        <a href="#" class="primary-btn site-btn">Mua sắm ngay</a>
                     </div>
                 </div>
             </div>

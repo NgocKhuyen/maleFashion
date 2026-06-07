@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\Auth\LoginController;
+use App\Http\Controllers\Auth\RegisterController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\CheckoutController;
@@ -25,11 +27,16 @@ Route::prefix('products')->group(function () {
     Route::get('/{slug}', [ProductController::class, 'show']);
 });
 // Cart
-Route::prefix('cart')->group(function() {
+Route::prefix('cart')->group(function () {
     Route::get('/', [CartController::class, 'index'])->name('cart');
 });
 
 // Checkout
-Route::prefix('checkout')->group(function() {
+Route::prefix('checkout')->group(function () {
     Route::get('/', [CheckoutController::class, 'index'])->name('checkout');
 });
+
+// Login
+Route::get('/login', [LoginController::class, 'index'])->name('login');
+// Register
+Route::get('/register', [RegisterController::class, 'index'])->name('register');
