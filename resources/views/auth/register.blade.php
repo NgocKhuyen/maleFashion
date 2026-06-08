@@ -41,7 +41,7 @@
                     </form>
                 </div>
                 <div class="login-right">
-                    <img src={{ asset('img/login.webp') }} alt="" class="login-img" />
+                    <img src={{ asset('img/register.png') }} alt="" class="login-img" />
                 </div>
             </div>
         </div>

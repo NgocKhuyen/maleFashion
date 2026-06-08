@@ -42,12 +42,12 @@
                             ĐĂNG NHẬP
                         </button>
 
-                        <a href="register.html" class="register-link">TẠO TÀI KHOẢN</a>
+                        <a href={{ route('register') }} class="register-link">TẠO TÀI KHOẢN</a>
                     </form>
                 </div>
 
                 <div class="login-right">
-                   <img src={{ asset('img/login.webp') }} alt="" class="login-img" />
+                   <img src={{ asset('img/login.png') }} alt="" class="login-img" />
                 </div>
             </div>
         </div>

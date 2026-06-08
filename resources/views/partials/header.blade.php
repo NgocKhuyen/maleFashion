@@ -55,17 +55,9 @@
     <div class="offcanvas-menu-wrapper">
         <div class="offcanvas__option">
             <div class="offcanvas__links">
-                <a href="#">Sign in</a>
-                <a href="#">FAQs</a>
+                <a href="#">Đăng nhập</a>
             </div>
-            <div class="offcanvas__top__hover">
-                <span>Usd <i class="arrow_carrot-down"></i></span>
-                <ul>
-                    <li>USD</li>
-                    <li>EUR</li>
-                    <li>USD</li>
-                </ul>
-            </div>
+            
         </div>
         <div class="offcanvas__nav__option">
             <a href="#" class="search-switch"><img src={{ asset('img/icon/search.png') }} alt=""></a>
@@ -93,17 +85,8 @@
                     <div class="col-lg-6 col-md-5">
                         <div class="header__top__right">
                             <div class="header__top__links mr-0">
-                                <a href="#">Sign in</a>
-                                {{-- <a href="#">FAQs</a> --}}
+                                <a href={{ route('login') }}>Đăng nhập</a>
                             </div>
-                            {{-- <div class="header__top__hover">
-                                <span>Usd <i class="arrow_carrot-down"></i></span>
-                                <ul>
-                                    <li>USD</li>
-                                    <li>EUR</li>
-                                    <li>USD</li>
-                                </ul>
-                            </div> --}}
                         </div>
                     </div>
                 </div>
